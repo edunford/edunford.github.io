@@ -1,9 +1,458 @@
----
-layout: default
-title: Eric Dunford
----
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title> Eric Dunford </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body>
 
-<div class="blurb">
-        <h1> Under Development </h1>
-	<p>Well, this isn't much, but it's a start! If I ever get this figured out, I'll be sure to put something here. </p>
- </div><!-- /.blurb -->
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<!-- <div class="logo">
+							<span class="icon fa-diamond"></span>
+						</div> -->
+						<div class="content">
+							<div class="inner">
+								<h1> Eric Dunford </h1>
+								<p> Doctorial Candidate in Political Science <br> University of Maryland</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#About">About</a></li>
+								<li><a href="#research">Research</a></li>
+								<li><a href="#cv">CV</a></li>
+								<li><a href="#software">Software</a></li>
+								<!-- <li><a href="#contact">Contact</a></li> -->
+								<!-- <li><a href="#elements">Elements</a></li> -->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="About">
+								<h2 class="major">About</h2>
+								<class="image main"><img src="images/personal_photo.jpg" alt=""/>
+								<p></p>
+								<p> I am a doctorial candidate in the <a href="https://gvpt.umd.edu/">Department of Government and Politics</a> at the University of Maryland, College Park. My dissertation looks at recruitment and adverse selection problems within non-state violent organizations. Specifically, I focus on two questions: first, why some rebel organizations develop institutions to screen potential recruits while others do not, and second, the effect selection (or the lack there of) has on group-level outcomes, such as violence against civilians, group cohesion, and organizational survival. I use a combination of original data, agent-based simulation, and a novel live simulated environment to explore this research topic. </p>
+
+								<p> I am also involved in a number of projects regarding event data integration, conflict diffusion processes, mapping diplomatic networks, and leveraging games data to examine cohesion patterns within competitive groups. See my <a href="#research">research</a> page for more information!</p>
+
+								<p> When I get a spare moment, I enjoy building software for things that I convince myself will make my life easier. I also love the outdoors, which I feel estranged from since moving east. I grew up in Idaho and Alaska, and attended Beliot College as an undergraduate. I genuinely love what I do.</p>
+
+							</article>
+
+						<!-- Research -->
+							<article id="research">
+								<h2 class="major"> <font size=6>Research</font> </h2>
+								<p>Below are some snapshots of some projects I am currently working on.</p>
+
+								<h4 class="major"> <font size=5, color="#c4e3ff">Integrating Conflict Event Data</font> </h4>
+								<p> with <a href="http://www.karstendonnay.net/">Karsten Donnay</a>, <a href="http://www.start.umd.edu/people/erin-mcgrath">Erin McGrath</a>, <a href="http://www.davidcunninghampolisci.com/">David Cunningham</a>, and <a href="https://cidcm.umd.edu/facultyprofile/Backer/David">David Backer</a>
+								<span class="image main"><img src="images/integration.jpg" alt="" /></span>
+								<p> The growing volume of sophisticated event-level data collection, with improving geographic and temporal coverage, offers prospects for conducting novel analyses. In instances where multiple related datasets are available, researchers tend to rely on one at a time, ignoring the potential value of the multiple datasets in providing more comprehensive, precise, and valid measurement of empirical phenomena. If multiple datasets are used, integration is typically limited to manual efforts for select cases. My co-authors and I develop the conceptual and methodological foundations for automated, transparent and reproducible integration and disambiguation of multiple event datasets.</p>
+								<p> In a recent paper, we formally present the methodology, validate it with synthetic test data, and demonstrate its application using conflict event data for Africa, drawing on four leading sources (UCDP-GED, ACLED, SCAD, GTD). We show that whether analyses rely on one or multiple datasets can affect substantive findings with regard to key explanatory variables, thus highlighting the critical importance of systematic data integration. </p>
+
+								<p> To make the method accessible to all researchers, <a href="http://www.karstendonnay.net/">Karsten Donnay</a> and I have developed an <i> R </i> package, which allows for easy implementation. We will be releasing the package on <a href="https://cran.r-project.org/">CRAN</a> in 2017.
+
+								<h4 class="major"><font size=5, color="#c4e3ff"> Mapping Diplomatic Networks </font> </h4>
+								<p> with <a href="http://www.michaelfjoseph.com/"> Michael Joseph </a> </p>
+								<span class="image main"><img src="images/iran_map.gif" alt="" /></span>
+								<p> After a century of research on international crisis, we still have trouble anticipating conflict between states. This partly due to the difficulty in measuring the intentions and foreign policy strategies of states. To fill this gap, a coauthor and I turn to an untapped source: the structural patterns of diplomatic meetings. These meetings are pre-organized, public engagements between the foreign policy elites of two states. We systematically scrape and machine code records of all self-reported diplomatic exchanges for 80 states cross-nationally to reconstruct a state’s ego-centric network of diplomacy over time. By leveraging structural breaks in the meeting patterns between states, we provide an efficient, scaleable method of examining state behavior in almost real time. </p>
+
+								<p> As a proof of concept, in a recent paper we perform this procedure on Iran and Russia, and show that structural breaks appear in Iran’s diplomatic behavior in the months after sanctions are lifted, and in Russia a year before the Ukraine crisis and again when Russia begins its military campaign in Syria. </p>
+
+								<h4 class="major"><font size=5, color="#c4e3ff">Hashtags that Matter </font></h4>
+								<p> with <a href="http://gvptsites.umd.edu/calvo/cv.html#"> Ernesto Calvo </a> and <a href="https://gvpt.umd.edu/gradprofile/Lund/Neil%20B"> Neil Lund </a> </p>
+								<span class="image main"><img src="images/hashtags_matter.jpg" alt="" /></span>
+								<p> In a recent research note, we describe a method to rank and map the propagation of hashtags in complex social networks. We take advantage of the known properties of the Generalized Friendship Paradox to measure the propagation rate of edge attributes (hashtags) in Twitter. We proceed to map the regions of the political networks that are activated by different hashtags. We exemplify our strategy analyzing a large protest network in Brazil during the second half of 2015, the #Dilma mobilizations.  </p>
+
+							</article>
+
+						<!-- CV -->
+							<article id="cv">
+								<h2 class="major">Curriculum Vitae</h2>
+								<!-- <span class="image main"><img src="images/pic03.jpg" alt="" /></span> -->
+
+								<p> To download a current <b>.pdf</b> version of my CV, click <a href="files/Dunford_Curriculum_Vitae - Spring 2017.pdf">here</a>.</p>
+
+								<!-- PUBLISHED WORK! -->
+								<h3 class="major"> <font size=5, color="#c4e3ff">Published Work </font> </h3>
+
+									<h4> Papers </h4>
+
+										<b> "A Voice in the Process: A Cross-National Look at Ethnic Inclusion and Economic Growth in the World.</b>" (with Johanna K. Birnir) 2014. <i>Development</i>. 57(2).
+
+										<p></p>
+
+										<h4> Book Contributions </h4>
+
+											<p> <b> "The Geography of Organized Armed Violence Around the World" </b> (with Erik Melander and David Backer). Forthcoming in <i>Peace and Conflict 2017</i>. Ed. Paul Huth, Ravi Bhavnani, and David Backer, Routledge. </p>
+								<hr />
+								<section> <!-- UNDER REVIEW -->
+								<h3 class="major"> <font size=5, color="#c4e3ff">Under Review </font> </h3>
+
+									<p> <b> "Integrating Conflict Event Data" </b> (with Karsten Donnay, Erin McGrath, David Cunningham, and David Backer) </p>
+
+									<p> <b> "Cultural Imprinting, Institutions, and the Organization of New Firms" </b> (with David Waguespack and Johanna K. Birnir) </p>
+
+
+									<!-- <p> <b> "Recondsidering Non-material Drivers of Military Effectiveness" </b> (with Barnett Koven) </p> -->
+
+							</section>
+							<hr />
+
+								<!-- WORKING PAPERS -->
+								<h3 class="major"> <font size=5, color="#c4e3ff">Working Papers </font></h3>
+
+								<p> <b> "Providing to Compete: Why Regime Change Movements Provide Social Welfare Provisions" </b> </p>
+
+								<p> <b> "A Break from the Past: why mapping deviations in diplomatic networks reveals shifts in foreign policy strategies" </b> (with Michael Joseph)  </p>
+
+								<p> <b> "Grievance and Electoral Violence" </b> (with Erin McGrath, Karsten Donnay, David Cunningham, David Backer) </p>
+
+								<p> <b> "Hashtags that Matter: Measuring the propagation of Tweets in the #Dilma Crisis" </b> (with Ernesto Calvo and Neil Lund) </p>
+
+								<!-- <p> <b>"Forecasting Electoral Violence” </b> (with Gary Lafree, Amy Adamczyk, Brandon Behlendorf, Cody Buntain, Danielle Loustau-Williams, David Backer, David Cunning ham, George Mohler, Jennifer Golbeck, Karsten Donnay, and Brooke Liu) </p> -->
+
+							<hr />
+								<h3 class="major"> <font size=5, color="#c4e3ff">Presentations</font> </h3>
+
+							 <p>	<em><b>An Automated Aggregation of Geo-coded Violent and Non-violent Conflict Events</b> </em>, Peace Science Society, Annual Meeting (Fall 2016) </p>
+
+							 <p>	<em><b>Integrating African Conflict Event Data</b> </em>, American Political Science Association, Annual Meeting (Fall 2016)</p>
+
+							 <p>	<em><b> MELTT: Matching Event Data by Location, Time, and Type </b> </em>, The Society for Political Methodology (Summer 2016) and Midwest Political Science Association, Annual Meeting (Spring 2016)</p>
+
+							 <p>	<em><b> Providing to Compete: An Examination of Social Welfare Provisions by Regime Change Movements </b> </em>, Midwest Political Science Association, Annual Meeting (Spring 2016)</p>
+
+							</article>
+
+						<!-- Blog Posts -->
+							<article id="software">
+								<h2 class="major">Software</h2>
+								<!-- <span class="image main"><img src="images/pic03.jpg" alt="" /></span> -->
+
+								<p> <font size=5, color="#c4e3ff"> <i>MELTT: Merging Event Data by Location, Time, and Type </i> </font> (with <a href="http://www.karstendonnay.net/">Karsten Donnay</a>) </br>
+								Package systematically integrates disparate geospatial event by leveraging information on spatio-temporal co-occurrence and event-specific meta data. R package forthcoming on CRAN. </p>
+
+								<p> <font size=5, color="#c4e3ff"> <i>diploMap</i> </font> </br>
+								Python module that leverages diplomatic meeting data between elites and utilizes an original dictionary-guided machine coding procedure to reconstruct global diplomatic networks. </p>
+
+								<!-- <p>See what else I'm working on <a href="https://github.com/edunford">github</a>.</p> -->
+
+
+							</article>
+
+						<!-- Contact -->
+							<article id="contact">
+								<h2 class="major">Contact</h2>
+								<form method="post" action="#">
+									<div class="field half first">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4"></textarea>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="special" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>
+								<ul class="icons">
+									<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</article>
+
+						<!-- Elements -->
+							<article id="elements">
+								<h2 class="major">Elements</h2>
+
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class="major">Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button special">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions vertical">
+										<li><a href="#" class="button special">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button special">Special</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button special icon fa-download">Icon</a></li>
+										<li><a href="#" class="button icon fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button special disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="field half first">
+											<label for="demo-name">Name</label>
+											<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+										</div>
+										<div class="field half">
+											<label for="demo-email">Email</label>
+											<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+										</div>
+										<div class="field">
+											<label for="demo-category">Category</label>
+											<div class="select-wrapper">
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+										</div>
+										<div class="field half first">
+											<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+											<label for="demo-priority-low">Low</label>
+										</div>
+										<div class="field half">
+											<input type="radio" id="demo-priority-high" name="demo-priority">
+											<label for="demo-priority-high">High</label>
+										</div>
+										<div class="field half first">
+											<input type="checkbox" id="demo-copy" name="demo-copy">
+											<label for="demo-copy">Email me a copy</label>
+										</div>
+										<div class="field half">
+											<input type="checkbox" id="demo-human" name="demo-human" checked>
+											<label for="demo-human">Not a robot</label>
+										</div>
+										<div class="field">
+											<label for="demo-message">Message</label>
+											<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="special" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="mailto:edunford@umd.edu" class="icon fa-envelope"><span class="label">Instagram</span></a></li>
+							<!-- <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li> -->
+							<li><a href="https://www.github.com/edunford" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="https://gvpt.umd.edu/gradprofile/Dunford/Eric" class="icon fa-graduation-cap"><span class="label">UMD</span></a></li>
+							<li><a href="https://scholar.google.com/citations?user=2Bm4F3QAAAAJ&hl=en" class="icon fa-book"><span class="label">Google Scholar</span></a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
