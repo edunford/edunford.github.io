@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0116)file://localhost/var/folders/5g/0qq7gjq57cx5r081gv5z8qqh0000gn/T/RtmpJc0gQv/view38ee4acaff25.dir/presentation.html#/ -->
+<!-- saved from url=(0116)file://localhost/var/folders/5g/0qq7gjq57cx5r081gv5z8qqh0000gn/T/RtmptqZmto/view718c33ae7172.dir/presentation.html#/ -->
 <html lang="en" class="section"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   
   <title>ABCs of Web-Scraping</title>
@@ -791,7 +791,7 @@ hljs.initHighlightingOnLoad();
 
 <p>April 7, 2017</p>
 
-<p>Eric Dunford </p>
+<p>Eric Dunford</p>
 
 <style>
 
@@ -801,20 +801,20 @@ hljs.initHighlightingOnLoad();
 }
 
 /* slide titles */
-.reveal h3 { 
+.reveal h3 {
   font-size: 60px;
   color: steelblue;
 }
 
 /* subheader titles */
-.reveal h2 { 
+.reveal h2 {
   font-size: 100px;
 }
 
 /* starter-section */
 .starter-section .reveal .state-background {
   background: #A3A5AD;
-} 
+}
 .starter-section .reveal h3 {
     font-size: 100px;
     color: white;
@@ -823,7 +823,7 @@ hljs.initHighlightingOnLoad();
 /* Special Slide Type */
 .exclaim .reveal .state-background {
   background: #ff8080;
-} 
+}
 .exclaim .reveal h3 {
   font-size: 60px;
   color: black;
@@ -840,7 +840,7 @@ hljs.initHighlightingOnLoad();
 <section data-transition="none" data-transition-speed="default" class="future" style="display: block;">
 <h3>Overview</h3>
 <div class="slideContent">
-<p>This tutorial will provide a basic overview of web-scraping in R. </p>
+<p>This tutorial will provide a basic overview of web-scraping in R.</p>
 
 <p>By:</p>
 
@@ -905,7 +905,7 @@ extract that content</li>
 
 </section>
 <section data-transition="none" data-transition-speed="default" class="future" style="display: none;">
-<h3>The Sturcture of HTML </h3>
+<h3>The Sturcture of HTML</h3>
 <div class="slideContent">
 <p>HTML code is structured using <strong>tags</strong>, and information is organized hierarchcially (like a list or an array) from top to bottom. When scraping, the tags that are of most use are:</p>
 
@@ -917,7 +917,7 @@ extract that content</li>
 <li><strong>table</strong> – tables</li>
 </ul>
 
-<p>We can examine the HTML of a website by <strong><em>inspecting</em></strong> the content within it (more below). </p>
+<p>We can examine the HTML of a website by <strong><em>inspecting</em></strong> the content within it (more below).</p>
 
 </div>
 
@@ -925,7 +925,7 @@ extract that content</li>
 <section data-transition="none" data-transition-speed="default" class="future" style="display: none;">
 <h3>R Packages</h3>
 <div class="slideContent">
-<p>There are many packages that can be effectively used to download content from a website. Here I highlight a few, but new stuff is coming out all the time. </p>
+<p>There are many packages that can be effectively used to download content from a website. Here I highlight a few, but new stuff is coming out all the time.</p>
 
 <pre><code class="r"><span class="keyword">require</span><span class="paren">(</span><span class="identifier">rvest</span><span class="paren">)</span> <span class="comment"># New, easier to use (dplyr logic)</span>
 <span class="keyword">require</span><span class="paren">(</span><span class="identifier">httr</span><span class="paren">)</span> <span class="comment"># great for forms and handshakes</span>
@@ -937,19 +937,9 @@ extract that content</li>
 
 </section>
 <section data-transition="none" data-transition-speed="default" class="future" style="display: none;">
-<h3>BBC </h3>
-<div class="slideContent">
-<p>Let's scrape content off of the following <a href="http://www.bbc.com/news/world-middle-east-36156865">BBC news story</a>.</p>
-
-<p>I will walkthrough all this on the slides, but the code for what I'm doing can be found <a href="https://www.dropbox.com/s/revcu8nq48ec6qd/5.19_ws.script_tutorial.R?dl=0">here</a></p>
-
-</div>
-
-</section>
-<section data-transition="none" data-transition-speed="default" class="future" style="display: none;">
 <h3>ABCs of Webscraping</h3>
 <div class="slideContent">
-<p>When scraping data online, keep the following procedure in mind:</p>
+<p>Let's scrape content off of the following <a href="http://www.bbc.com/news/world-middle-east-36156865">BBC news story</a>. When scraping data online, keep the following procedure in mind:</p>
 
 <pre><code>(A) identify what information you want
 (B) examine the HTML structure and elements
@@ -965,7 +955,7 @@ extract that content</li>
 <section data-state="prompt" data-transition="none" data-transition-speed="default" class="future" style="display: none;">
 <h3>Use the Pipe!</h3>
 <div class="slideContent">
-<p>Given how “<strong>nested</strong>” the extraction code can get, it's useful to use the pipe when constructing your code. </p>
+<p>Given how “<strong>nested</strong>” the extraction code can get, it's useful to use the pipe when constructing your code.</p>
 
 <p>The pipe (<strong><code>%&gt;%</code></strong>) “passes” tasks between functions seemlessly, and it makes your code easier to read and debug.</p>
 
@@ -973,9 +963,9 @@ extract that content</li>
 
 <pre><code class="r"><span class="keyword">require</span><span class="paren">(</span><span class="identifier">magrittr</span><span class="paren">)</span> <span class="comment"># or dplyr, rvest, etc.</span>
 <span class="comment"># Nested</span>
-<span class="identifier">round</span><span class="paren">(</span><span class="identifier">sd</span><span class="paren">(</span><span class="identifier">rnorm</span><span class="paren">(</span><span class="number">100</span>,<span class="number">5</span>,<span class="number">6</span><span class="paren">)</span><span class="paren">)</span>,<span class="number">3</span><span class="paren">)</span> 
+<span class="identifier">round</span><span class="paren">(</span><span class="identifier">sd</span><span class="paren">(</span><span class="identifier">rnorm</span><span class="paren">(</span><span class="number">100</span>,<span class="number">5</span>,<span class="number">6</span><span class="paren">)</span><span class="paren">)</span>,<span class="number">3</span><span class="paren">)</span>
 <span class="comment"># Piped</span>
-<span class="identifier">rnorm</span><span class="paren">(</span><span class="number">100</span>,<span class="number">5</span>,<span class="number">6</span><span class="paren">)</span> <span class="operator">%&gt;%</span> <span class="identifier">sd</span><span class="paren">(</span>.<span class="paren">)</span> <span class="operator">%&gt;%</span> <span class="identifier">round</span><span class="paren">(</span>.,<span class="number">3</span><span class="paren">)</span> 
+<span class="identifier">rnorm</span><span class="paren">(</span><span class="number">100</span>,<span class="number">5</span>,<span class="number">6</span><span class="paren">)</span> <span class="operator">%&gt;%</span> <span class="identifier">sd</span><span class="paren">(</span>.<span class="paren">)</span> <span class="operator">%&gt;%</span> <span class="identifier">round</span><span class="paren">(</span>.,<span class="number">3</span><span class="paren">)</span>
 </code></pre>
 
 </div>
@@ -1028,7 +1018,7 @@ extract that content</li>
 &lt;h1 class="story-body__h1"&gt;
 </code></pre>
 
-<p>Still jargon… </p>
+<p>Still jargon…</p>
 
 </div>
 
@@ -1152,7 +1142,7 @@ extract that content</li>
 <section data-transition="none" data-transition-speed="default" class="future" style="display: none;">
 <h3>Got the bones? Get the goods</h3>
 <div class="slideContent">
-<p>Once you have a blueprint of the HTML structure, you can easily find your way around. </p>
+<p>Once you have a blueprint of the HTML structure, you can easily find your way around.</p>
 
 <p>We can <strong>systematically use the information we <em>know</em></strong> about the HTML structure to grab new information with ease.</p>
 
@@ -1178,12 +1168,12 @@ extract that content</li>
 <section data-state="alert" data-transition="none" data-transition-speed="default" class="future" style="display: none;">
 <h3>Legality</h3>
 <div class="slideContent">
-<p>Don't scrape too fast! </p>
+<p>Don't scrape too fast!</p>
 
 <ul>
 <li>You're behavior is statistically distinguishable from human users.</li>
 <li>Constitutes a <a href="https://en.wikipedia.org/wiki/Denial-of-service_attack">DDOS attack</a>, which can lead to <strong>jail time</strong>.</li>
-<li>Known the websites <strong>terms of service</strong> – breaking those terms can lead to being banned from the site or even <a href="https://www.wired.com/2011/07/swartz-arrest/">jail time</a>. </li>
+<li>Known the websites <strong>terms of service</strong> – breaking those terms can lead to being banned from the site or even <a href="https://www.wired.com/2011/07/swartz-arrest/">jail time</a>.</li>
 </ul>
 
 </div>
@@ -1195,14 +1185,14 @@ extract that content</li>
 <ul>
 <li class="fragment">Slow down</li>
 <li class="fragment">Add noise to make your behavior less statistically distinguishable.</li>
-<li class="fragment">Know what you're doing and who you're doing it to. </li>
+<li class="fragment">Know what you're doing and who you're doing it to.</li>
 </ul>
 
 <blockquote class="fragment">
-<p>In the words of Nietzsche: “if thou gaze long into an abyss, the abyss will also gaze into thee” </p>
+<p>In the words of Nietzsche: “if thou gaze long into an abyss, the abyss will also gaze into thee”</p>
 </blockquote>
 
-<p class="fragment">That is, the internet is a two way street. Scraping content from some sites puts you on peoples' radar. </p>
+<p class="fragment">That is, the internet is a two way street. Scraping content from some sites puts you on peoples' radar.</p>
 
 </div>
 
@@ -1210,13 +1200,13 @@ extract that content</li>
 <section data-transition="none" data-transition-speed="default" class="future" style="display: block;">
 <h3>Solution</h3>
 <div class="slideContent">
-<p>Create noise by <strong>randomly</strong> putting your scraper to sleep. </p>
+<p>Create noise by <strong>randomly</strong> putting your scraper to sleep.</p>
 
 <pre><code class="r"><span class="comment"># One random unit of time drawn from a uniform distribution</span>
-<span class="identifier">runif</span><span class="paren">(</span><span class="number">1</span>,<span class="number">1</span>,<span class="number">4</span><span class="paren">)</span> 
+<span class="identifier">runif</span><span class="paren">(</span><span class="number">1</span>,<span class="number">1</span>,<span class="number">4</span><span class="paren">)</span>
 </code></pre>
 
-<pre><code>[1] 1.191549
+<pre><code>[1] 3.931086
 </code></pre>
 
 <pre><code class="r"><span class="comment"># Put the system to sleep by that random unit</span>
