@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conflict Event Data on Eric T. Dunford</title>
+    <link>/tags/conflict-event-data/</link>
+    <description>Recent content in Conflict Event Data on Eric T. Dunford</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="/tags/conflict-event-data/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MELTT: Merging Event Data by Location Time and Type</title>
+      <link>/project/meltt/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/project/meltt/</guid>
+      <description>The growing volume of sophisticated event-level data collection, with improving geographic and temporal coverage, offers prospects for conducting novel analyses. In instances where multiple related datasets are available, researchers tend to rely on one at a time, ignoring the potential value of the multiple datasets in providing more comprehensive, precise, and valid measurement of empirical phenomena. If multiple datasets are used, integration is typically limited to manual efforts for select cases.</description>
+    </item>
+    
+  </channel>
+</rss>

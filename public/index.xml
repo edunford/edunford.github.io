@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eric T. Dunford on Eric T. Dunford</title>
+    <link>/</link>
+    <description>Recent content in Eric T. Dunford on Eric T. Dunford</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0400</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>/privacy/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/privacy/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Integrating Conflict Event Data</title>
+      <link>/publication/integrating-conflict-event-data/</link>
+      <pubDate>Tue, 26 Jun 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/publication/integrating-conflict-event-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cultural Imprinting, Institutions, and the Organization of New Firms</title>
+      <link>/publication/cultural-imprinting/</link>
+      <pubDate>Mon, 18 Jun 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/publication/cultural-imprinting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Geography of Organized Armed Violence around the World</title>
+      <link>/publication/peace-and-conflict-2018/</link>
+      <pubDate>Wed, 08 Nov 2017 00:00:00 -0500</pubDate>
+      
+      <guid>/publication/peace-and-conflict-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Crash Course in Statistical Programming in R</title>
+      <link>/talk/bsos-math-camp-2018/</link>
+      <pubDate>Thu, 17 Aug 2017 00:00:00 -0400</pubDate>
+      
+      <guid>/talk/bsos-math-camp-2018/</guid>
+      <description>&lt;p&gt;Slides for the talk can be found &lt;a href=&#34;www.ericdunford.com&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The rise of large-scale data collection has generated a need for fast, reliable ways to analyze information. Cleaning, processing, and visualizing data has become a growing necessity in social science research. The R statistical programing environment offers a reliable, open-source, and costfree approach to data analysis. With a robust community of contributors, R allows for a wide range of different statistical analyses and data visualization approaches, making it the leading choice in data analytics.&lt;/p&gt;
+
+&lt;p&gt;This crash course will introduce incoming BSOS graduate students to the R programing environment in an effort to prepare them for their future methodological training in their respective programs. For many beginning users, manipulating and managing data in R can be frustrating. This course will focus on providing participants a basic knowledge of the R programming environment while simultaneously providing a practical data science toolkit that attendees can implement immediately. To this end, the course takes a ‘Tidyverse’ approach to R programming, which provides users an intuitive grammar for data manipulation. The goal is to provide a practical toolkit for analysis in R—without getting too bogged down in the nuts and bolts of functional programming—that they can then apply to their future academic training.&lt;/p&gt;
+
+&lt;p&gt;The course will take part across two 3-hour sessions. The first session will offer participants an underlying intuition of the R programming environment by focusing on the basics of (a) the syntax and environment, (b) data management, &amp;copy; graphics and presentation, and (d) modeling. Participants of the workshop will leave with an applied understanding of the R environment: specifically, importing and manipulating data, rendering graphics, presenting results, and implementing basic statistical models. The second session will focus on applied applications to different types of data science problems. This session intends to offer participants a general sense of what sorts of analyses and applications are possible in R.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hashtags that Matter: Measuring the propagation of Tweets in the Dilma Crisis</title>
+      <link>/publication/hashtags-that-matter/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/publication/hashtags-that-matter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Live Simulated Environments</title>
+      <link>/project/eve-online/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/project/eve-online/</guid>
+      <description>&lt;p&gt;Recent work in economics and communication have demonstrated the value of virtual worlds in analyzing social and collective behavior. Online video games provide useful “petri dishes” for the study of human behavior (Castronova and Falk, 2009; Williams, 2010) by oﬀering researchers highly granular event data (second-by-second) of player actions, a wealth of structural breaks ideal for natural experiments (when rules of the game are changed or new servers are activated), and clear ways to operationalize individual-level capacity, motivations, and resources (Williams et al., 2011; Huang et al., 2009; Kahn and Williams, 2015; Keegan et al., 2010). Such data is “live” in the sense that it employs human agents that react to the virtual world in heterogeneous ways.&lt;/p&gt;
+
+&lt;p&gt;Live simulated environments oﬀer a rare opportunity to examine individual and group-level behavior in a way that was previously impossible. First, these data oﬀer a perfect record of all activity. As all player information is recorded, one can observe a player’s entrance and exit from groups, evolution of behavior over time, and degree of cooperation and conﬂict. Second, group dynamics can be recomposed. Individual-level interactions of members in a group can be perfectly tracked and mapped. As a result, group networks can be reconstructed, and exact measurements of cohesion and interaction can be captured over time. Third, changes in the environment can be leveraged for causal identiﬁcation. Specifically, when rules are changed in the game, this produces a structural break that can yield discontinuities in individual and group-level behavior. In addition, matching techniques can be employed to ease causal identiﬁcation.&lt;/p&gt;
+
+&lt;p&gt;My co-authors (David Waguespack and Johanna Birnir) and I use a massive multiplayer online game, &lt;a href=&#34;https://www.eveonline.com/&#34; target=&#34;_blank&#34;&gt;Eve Online (EVE)&lt;/a&gt;. EVE was created in 2003 by &lt;a href=&#34;https://www.ccpgames.com/&#34; target=&#34;_blank&#34;&gt;CCP Games&lt;/a&gt; and plays out in an interstellar backdrop where individuals mine resources, barter and trade, compete over territory, and wage large-scale conﬂicts. The game has a total user-base of 600,000+ individuals, spanning 163 countries, 65 of which have more than 5,000 users. In the game, users ﬂy around in ships that are purchased and created by acquiring resources during game play. The game is stylistically modeled as a “sandbox”, which is a style of game in which minimal limitations are placed on the user. This allows individuals to roam, interact, cheat, trick, and shape the virtual universe.&lt;/p&gt;
+
+&lt;p&gt;EVE functions as a live simulated environment given four underlying assumptions that underpin its game play.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;The environment is market-based&lt;/strong&gt;: Resources in the game need to be mobilized. Capacity in the virtual world is deﬁned by an agent’s ability to gain suﬃcient funds to buy “ships,” generate incentives to coordinate players, and project power. Extraction and exchange require goods to be brought to market, which which can be looted when transported or may lack buyers when brought to market. Thus, the market-based system generates uncertainty, risk, and requires strategic calculation in order to gain resources. Moreover, it makes the loss of resources costly, as gaining back losses takes considerable time and energy.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;The game pivots off collective action&lt;/strong&gt;: The game requires players to coordinate their activity, to pool resources, and to monitor each other for free riding and other infractions. Players enter into corporations, which have a distinct hierarchies and leadership structures. In addition, corporations can join into alliances, which yield considerable inﬂuence on the dynamics in the game. The underlying need for players in diﬀerent countries, time zones, and backgrounds to coordinate oﬀers a rare but valuable microcosm of collective activity.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;The environment offers a realistic approximation of risk&lt;/strong&gt;: Assets take time to acquire and can be permanently destroyed. Poor decisions, mismanagement, and adverse random occurrences (bad luck) can result in the lose of valuable resources. Extraction and acquisition of resources in the game takes considerable time, and thus loss of these resources carries meaning for players. This reality is reﬂected in the in-game adage: “don’t ﬂy what you can’t aﬀord to lose.” Players often need to transport large quantities of resources, or utilize expensive weapons in decisive battles that open them up to risk. This risk conditions how players play, and the decisions they make.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;The environment pivots off territorial control&lt;/strong&gt;: Territory can only be acquired and maintained given suﬃcient capacity and manpower. This means that alliances between corporations must be maintained in order to retain territory—as the alliance’s military capacity is only good as the sum of all member corporation’s capabilities. The reality of territorial control requires agreements and negotiations between groups; it requires that players mobilize and come online when the alliance faces a challenger; and it requires that resources be suﬃciently distributed between partner corporations.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We use these data to examine a range of political science and business management questions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MELTT: Merging Event Data by Location Time and Type</title>
+      <link>/project/meltt/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/project/meltt/</guid>
+      <description>&lt;p&gt;The growing volume of sophisticated event-level data collection, with improving geographic and temporal coverage, offers prospects for conducting novel analyses. In instances where multiple related datasets are available, researchers tend to rely on one at a time, ignoring the potential value of the multiple datasets in providing more comprehensive, precise, and valid measurement of empirical phenomena. If multiple datasets are used, integration is typically limited to manual efforts for select cases. My co-authors and I develop the conceptual and methodological foundations for automated, transparent and reproducible integration and disambiguation of multiple event datasets.&lt;/p&gt;
+
+&lt;p&gt;In a recent paper, we formally present the methodology, validate it with synthetic test data, and demonstrate its application using conflict event data for Africa, drawing on four leading sources (UCDP-GED, ACLED, SCAD, GTD). We show that whether analyses rely on one or multiple datasets can affect substantive findings with regard to key explanatory variables, thus highlighting the critical importance of systematic data integration.&lt;/p&gt;
+
+&lt;p&gt;To make the method accessible to all researchers, &lt;a href=&#34;http://www.karstendonnay.net/&#34; target=&#34;_blank&#34;&gt;Karsten Donnay&lt;/a&gt; and I have developed an &lt;code&gt;R&lt;/code&gt; package, which allows for easy implementation. The &lt;a href=&#34;https://cran.r-project.org/web/packages/meltt/index.html&#34; target=&#34;_blank&#34;&gt;meltt&lt;/a&gt; package is now available on CRAN. Also, the project and code is up on Github where we provide a &lt;a href=&#34;https://github.com/css-konstanz/meltt&#34; target=&#34;_blank&#34;&gt;basic walkthrough&lt;/a&gt; of the package&amp;rsquo;s functionality.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Academic: the website designer for Hugo</title>
+      <link>/post/getting-started/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/post/getting-started/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Academic&lt;/strong&gt; is a framework to help you create a beautiful website quickly. Perfect for personal sites, blogs, or business/project sites. &lt;a href=&#34;https://themes.gohugo.io/theme/academic/&#34; target=&#34;_blank&#34;&gt;Check out the latest demo&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes. Then head on over to the &lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;Quick Start guide&lt;/a&gt; or take a look at the &lt;a href=&#34;https://sourcethemes.com/academic/updates/&#34; target=&#34;_blank&#34;&gt;Release Notes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; alt=&#34;Screenshot&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Key features:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Easily manage various content including homepage, blog posts, publications, talks, and projects&lt;/li&gt;
+&lt;li&gt;Extensible via &lt;strong&gt;color themes&lt;/strong&gt; and &lt;strong&gt;widgets/plugins&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Write in &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt; for easy formatting and code highlighting, with &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX&lt;/a&gt; for mathematical expressions&lt;/li&gt;
+&lt;li&gt;Social/academic network linking, &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34;&gt;Google Analytics&lt;/a&gt;, and &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34;&gt;Disqus&lt;/a&gt; comments&lt;/li&gt;
+&lt;li&gt;Responsive and mobile friendly&lt;/li&gt;
+&lt;li&gt;Simple and refreshing one page design&lt;/li&gt;
+&lt;li&gt;Multilingual and easy to customize&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;color-themes&#34;&gt;Color Themes&lt;/h2&gt;
+
+&lt;p&gt;Academic is available in different color themes and font themes.&lt;/p&gt;
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+  
+  
+  
+  
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Default&#34; href=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-default.png&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-default.png&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Ocean&#34; href=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-ocean.png&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-ocean.png&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Dark&#34; href=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-dark.png&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-dark.png&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Default&#34; href=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-forest.png&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-forest.png&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Coffee theme with Playfair font&#34; href=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-coffee-playfair.png&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-coffee-playfair.png&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;1950s&#34; href=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-1950s.png&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-1950s.png&#34;&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
+
+&lt;p&gt;You can choose from one of the following four methods to install:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;one-click install using your web browser (recommended)&lt;/li&gt;
+&lt;li&gt;install on your computer using Git with the Command Prompt/Terminal app&lt;/li&gt;
+&lt;li&gt;install on your computer by downloading the ZIP files&lt;/li&gt;
+&lt;li&gt;install on your computer with RStudio&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;quick-install-using-your-web-browser&#34;&gt;Quick install using your web browser&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://app.netlify.com/start/deploy?repository=https://github.com/sourcethemes/academic-kickstart&#34; target=&#34;_blank&#34;&gt;Install Academic with Netlify&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Netlify will provide you with a customizable URL to access your new site&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;On GitHub, go to your newly created &lt;code&gt;academic-kickstart&lt;/code&gt; repository and edit &lt;code&gt;config.toml&lt;/code&gt; to personalize your site. Shortly after saving the file, your site will automatically update&lt;/li&gt;
+&lt;li&gt;Read the &lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;Quick Start Guide&lt;/a&gt; to learn how to add Markdown content. For inspiration, refer to the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite&#34; target=&#34;_blank&#34;&gt;Markdown content&lt;/a&gt; which powers the &lt;a href=&#34;https://themes.gohugo.io/theme/academic/&#34; target=&#34;_blank&#34;&gt;Demo&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;install-with-git&#34;&gt;Install with Git&lt;/h3&gt;
+
+&lt;p&gt;Prerequisites:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://git-scm.com/downloads&#34; target=&#34;_blank&#34;&gt;Download and install Git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/getting-started/installing/#quick-install&#34; target=&#34;_blank&#34;&gt;Download and install Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart#fork-destination-box&#34; target=&#34;_blank&#34;&gt;Fork&lt;/a&gt; the &lt;em&gt;Academic Kickstart&lt;/em&gt; repository and clone your fork with Git:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/sourcethemes/academic-kickstart.git My_Website
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;Note that if you forked Academic Kickstart, the above command should be edited to clone your fork, i.e. replace &lt;code&gt;sourcethemes&lt;/code&gt; with your GitHub username.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Initialize the theme:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd My_Website
+git submodule update --init --recursive
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;install-with-zip&#34;&gt;Install with ZIP&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart/archive/master.zip&#34; target=&#34;_blank&#34;&gt;Download&lt;/a&gt; and extract &lt;em&gt;Academic Kickstart&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gcushen/hugo-academic/archive/master.zip&#34; target=&#34;_blank&#34;&gt;Download&lt;/a&gt; and extract the &lt;em&gt;Academic theme&lt;/em&gt; to the &lt;code&gt;themes/academic/&lt;/code&gt; folder from the above step&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;install-with-rstudio&#34;&gt;Install with RStudio&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34;&gt;View the guide to installing Academic with RStudio&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;quick-start&#34;&gt;Quick start&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;If you installed on your computer, view your new website by running the following command:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo server
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now visit &lt;a href=&#34;http://localhost:1313&#34; target=&#34;_blank&#34;&gt;localhost:1313&lt;/a&gt; and your new Academic powered website will appear. Otherwise, if using Netlify, they will provide you with your URL.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Read the &lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;Quick Start Guide&lt;/a&gt; to learn how to add Markdown content, customize your site, and deploy it. For inspiration, refer to the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite&#34; target=&#34;_blank&#34;&gt;Markdown content&lt;/a&gt; which powers the &lt;a href=&#34;https://themes.gohugo.io/theme/academic/&#34; target=&#34;_blank&#34;&gt;Demo&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Build your site by running the &lt;code&gt;hugo&lt;/code&gt; command. Then &lt;a href=&#34;https://georgecushen.com/create-your-website-with-hugo/&#34; target=&#34;_blank&#34;&gt;host it for free using Github Pages&lt;/a&gt; or Netlify (refer to the first installation method). Alternatively, copy the generated &lt;code&gt;public/&lt;/code&gt; directory (by FTP, Rsync, etc.) to your production web server (such as a university&amp;rsquo;s hosting service).&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;updating&#34;&gt;Updating&lt;/h2&gt;
+
+&lt;p&gt;Feel free to &lt;em&gt;star&lt;/em&gt; the project on &lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt; to help keep track of updates and check out the &lt;a href=&#34;https://sourcethemes.com/academic/updates&#34; target=&#34;_blank&#34;&gt;release notes&lt;/a&gt; prior to updating your site.&lt;/p&gt;
+
+&lt;p&gt;Before updating the framework, it is recommended to make a backup of your entire website directory (or at least your &lt;code&gt;themes/academic&lt;/code&gt; directory) and record your current version number.&lt;/p&gt;
+
+&lt;p&gt;By default, Academic is installed as a Git submodule which can be updated by running the following command:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git submodule update --remote --merge
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34;&gt;Check out the update guide&lt;/a&gt; for full instructions and alternative methods.&lt;/p&gt;
+
+&lt;h2 id=&#34;feedback-contributing&#34;&gt;Feedback &amp;amp; Contributing&lt;/h2&gt;
+
+&lt;p&gt;Please use the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues&#34; target=&#34;_blank&#34;&gt;issue tracker&lt;/a&gt; to let me know about any bugs or feature requests, or alternatively make a pull request.&lt;/p&gt;
+
+&lt;p&gt;For support, head over to the &lt;a href=&#34;http://discuss.gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo discussion forum&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/post/2015-07-23-r-rmarkdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2015-07-23-r-rmarkdown/</guid>
+      <description>&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;R Markdown&lt;/h1&gt;
+&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+fit &amp;lt;- lm(dist ~ speed, data = cars)
+fit
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Including Plots&lt;/h1&gt;
+&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
+  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
+  init.angle = -50, border = NA
+)&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: A fancy pie chart.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mapping Diplomatic Networks</title>
+      <link>/project/diplomatic-networks/</link>
+      <pubDate>Fri, 13 Feb 2015 00:00:00 -0500</pubDate>
+      
+      <guid>/project/diplomatic-networks/</guid>
+      <description>&lt;p&gt;After a century of research on international crisis, we still have trouble anticipating conflict between states. This partly due to the difficulty in measuring the intentions and foreign policy strategies of states. To fill this gap, a coauthor and I turn to an untapped source: the structural patterns of diplomatic meetings. These meetings are pre-organized, public engagements between the foreign policy elites of two states. We systematically scrape and machine code records of all self-reported diplomatic exchanges for 80 states cross-nationally to reconstruct a state’s ego-centric network of diplomacy over time. By leveraging structural breaks in the meeting patterns between states, we provide an efficient, scaleable method of examining state behavior in almost real time.&lt;/p&gt;
+
+&lt;p&gt;As a proof of concept, in a recent paper we perform this procedure on Iran and Russia, and show that structural breaks appear in Iran’s diplomatic behavior in the months after sanctions are lifted, and in Russia a year before the Ukraine crisis and again when Russia begins its military campaign in Syria.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

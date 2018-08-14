@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Eric T. Dunford</title>
+    <link>/project/</link>
+    <description>Recent content in Projects on Eric T. Dunford</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Live Simulated Environments</title>
+      <link>/project/eve-online/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/project/eve-online/</guid>
+      <description>Recent work in economics and communication have demonstrated the value of virtual worlds in analyzing social and collective behavior. Online video games provide useful “petri dishes” for the study of human behavior (Castronova and Falk, 2009; Williams, 2010) by oﬀering researchers highly granular event data (second-by-second) of player actions, a wealth of structural breaks ideal for natural experiments (when rules of the game are changed or new servers are activated), and clear ways to operationalize individual-level capacity, motivations, and resources (Williams et al.</description>
+    </item>
+    
+    <item>
+      <title>MELTT: Merging Event Data by Location Time and Type</title>
+      <link>/project/meltt/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/project/meltt/</guid>
+      <description>The growing volume of sophisticated event-level data collection, with improving geographic and temporal coverage, offers prospects for conducting novel analyses. In instances where multiple related datasets are available, researchers tend to rely on one at a time, ignoring the potential value of the multiple datasets in providing more comprehensive, precise, and valid measurement of empirical phenomena. If multiple datasets are used, integration is typically limited to manual efforts for select cases.</description>
+    </item>
+    
+    <item>
+      <title>Mapping Diplomatic Networks</title>
+      <link>/project/diplomatic-networks/</link>
+      <pubDate>Fri, 13 Feb 2015 00:00:00 -0500</pubDate>
+      
+      <guid>/project/diplomatic-networks/</guid>
+      <description>After a century of research on international crisis, we still have trouble anticipating conflict between states. This partly due to the difficulty in measuring the intentions and foreign policy strategies of states. To fill this gap, a coauthor and I turn to an untapped source: the structural patterns of diplomatic meetings. These meetings are pre-organized, public engagements between the foreign policy elites of two states. We systematically scrape and machine code records of all self-reported diplomatic exchanges for 80 states cross-nationally to reconstruct a state’s ego-centric network of diplomacy over time.</description>
+    </item>
+    
+  </channel>
+</rss>

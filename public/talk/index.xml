@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks on Eric T. Dunford</title>
+    <link>/talk/</link>
+    <description>Recent content in Recent &amp; Upcoming Talks on Eric T. Dunford</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Crash Course in Statistical Programming in R</title>
+      <link>/talk/bsos-math-camp-2018/</link>
+      <pubDate>Thu, 17 Aug 2017 00:00:00 -0400</pubDate>
+      
+      <guid>/talk/bsos-math-camp-2018/</guid>
+      <description>Slides for the talk can be found here
+The rise of large-scale data collection has generated a need for fast, reliable ways to analyze information. Cleaning, processing, and visualizing data has become a growing necessity in social science research. The R statistical programing environment offers a reliable, open-source, and costfree approach to data analysis. With a robust community of contributors, R allows for a wide range of different statistical analyses and data visualization approaches, making it the leading choice in data analytics.</description>
+    </item>
+    
+  </channel>
+</rss>
