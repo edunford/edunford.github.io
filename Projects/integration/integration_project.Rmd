@@ -1,0 +1,48 @@
+---
+output: 
+  html_document:
+    theme: paper 
+    css: style.css
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### [Home](http://ericdunford.com/)
+
+## Integrating Conflict Event Data
+
+The growing volume of sophisticated event-level data collection, with improving geographic and temporal coverage, offers prospects for conducting novel analyses. In instances where multiple related datasets are available, researchers tend to rely on one at a time, ignoring the potential value of the multiple datasets in providing more comprehensive, precise, and valid measurement of empirical phenomena. If multiple datasets are used, integration is typically limited to manual efforts for select cases. My co-authors and I develop the conceptual and methodological foundations for automated, transparent and reproducible integration and disambiguation of multiple event datasets.
+
+```{r, out.width = "100%",echo=F, out.extra='style="float:right; padding-left:20px; padding-top:20px;padding-bottom:20px"'}
+knitr::include_graphics(c("meltt-steps.jpg"))
+```
+
+In a recent paper, we formally present the methodology, validate it with synthetic test data, and demonstrate its application using conflict event data for Africa, drawing on four leading sources (UCDP-GED, ACLED, SCAD, GTD). We show that whether analyses rely on one or multiple datasets can affect substantive findings with regard to key explanatory variables, thus highlighting the critical importance of systematic data integration. 
+
+To make the method accessible to all researchers, [Karsten Donnay](http://www.karstendonnay.net/) and I have developed an `R` package, which allows for easy implementation. The [meltt](https://cran.r-project.org/web/packages/meltt/index.html) package is now available on CRAN. Also, the project and code is up on Github where we provide a [basic walkthrough](https://github.com/css-konstanz/meltt) of the package's functionality.
+
+## Co-author(s)
+
+- [David Cunningham](http://www.davidcunninghampolisci.com/)
+- [Karsten Donnay](https://www.karstendonnay.net/)
+- [David Backer](https://cidcm.umd.edu/facultyprofile/backer/david)
+- [Erin McGrath](http://www.erincmcgrath.org/)
+
+## Working Papers
+
+- "<a href="" target="_blank">An Integrated Picture of Conflict</a>" (Under-review)<blockquote>Growth in event datasets is fostering research about patterns, dynamics, causes, and consequences of conﬂict. Studies typically rely on a single dataset. Instead, we advocate integrating multiple datasets to improve measurement and analysis. We have generated an integrated dataset covering all violent events for Africa from 1997-2018 from three leading datasets (ACLED, UCDP-GED, and GTD). We describe the integration process, which involves both pre-processing the data so that they are comparable and using an automated approach to produce an integrated dataset that is transparent and reproducible. Through examining these integrated data we ﬁnd substantial overlap across these three datasets, but also that each includes events that should be captured in others but are not. Thus, we see these integrated data as potentially providing a better measure of violent conﬂict. A statistical analysis shows that geographic features that are frequently used in analyses of the location of conﬂict events–including the distance from the capital or a border, terrain, economic development, and population have different effects on the incidence and frequency of conﬂict events when using integrated data as compared to individual datasets. These illustrations highlight the potential for integration to advance conﬂict research by yielding a more complete and accurate picture of activity, which has repercussions for both descriptive and theoretical ﬁndings. Integration is likely to be increasingly worthwhile as event datasets proliferate, expand in coverage, and exhibit wider applications.</blockquote></details>
+
+## Publications
+
+- **2019** "<a href="https://doi.org/10.1177/0022002718777050" target="_blank">Integrating Conflict Event Data</a>" (With Karsten Donnay, Erin McGrath, David Cunningham, and David Backer). _Journal of Conflict Resolution._<blockquote>The growing multitude of sophisticated event-level data collection enables novel analyses of conflict. Even when multiple event data sets are available, researchers tend to rely on only one. We instead advocate integrating information from multiple event data sets. The advantages include facilitating analysis of relationships between different types of conflict, providing more comprehensive empirical measurement, and evaluating the relative coverage and quality of data sets. Existing integration efforts have been performed manually, with significant limitations. Therefore, we introduce Matching Event Data by Location, Time and Type (MELTT) --- an automated, transparent, reproducible methodology for integrating event data sets. For the cases of Nigeria 2011, South Sudan 2015, and Libya 2014, we show that using MELTT to integrate data from four leading conflict event data sets (Uppsala Conflict Data Project–Georeferenced Event Data, Armed Conflict Location and Event Data, Social Conflict Analysis Database, and Global Terrorism Database) provides a more complete picture of conflict. We also apply multiple systems estimation to show that each of these data sets has substantial missingness in coverage.</blockquote></details>
+
+## Software
+
+- <a href="https://cran.r-project.org/web/packages/meltt/index.html" target="_blank">MELTT: Merging Event Data by Location, Time, and Type</a>: An `R` package that offers a methodology for systematically integrating disparate geospatial event data by leveraging information on spatio-temporal co-occurrence and event-specific metadata. 
+

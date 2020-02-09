@@ -1,0 +1,35 @@
+---
+output: 
+  html_document:
+    theme: paper 
+    css: style.css
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### [Home](http://ericdunford.com/)
+
+## Mapping Diplomatic Meeting Networks
+
+After a century of research on international crisis, we still have trouble anticipating conflict between states. This partly due to the difficulty in measuring the intentions and foreign policy strategies of states. To fill this gap, a coauthor and I turn to an untapped source: the structural patterns of diplomatic meetings. These meetings are pre-organized, public engagements between the foreign policy elites of two states. We systematically scrape and machine code records of all self-reported diplomatic exchanges for 80 states cross-nationally to reconstruct a state’s ego-centric network of diplomacy over time. By leveraging structural breaks in the meeting patterns between states, we provide an efficient, scaleable method of examining state behavior in almost real time.
+
+```{r, out.width = "100%",echo=F, out.extra='style="float:right; padding-left:20px"'}
+knitr::include_graphics(c("iran_map.gif"))
+```
+
+As a proof of concept, in a recent paper we perform this procedure on Iran and Russia, and show that structural breaks appear in Iran’s diplomatic behavior in the months after sanctions are lifted, and in Russia a year before the Ukraine crisis and again when Russia begins its military campaign in Syria.
+
+## Co-author(s)
+
+- [Michael Joseph](https://www.michaelfjoseph.com/)
+
+## Working Papers
+
+- "<a href="Drafts/Dunford_and_Joseph_2018.pdf" target="_blank">Shifting foreign policies and punctuated diplomatic behavior</a>"<blockquote>We develop a method to identify when states change their foreign policies based on an observable indicator: patterns of elite diplomatic meetings. We argue that elites choose diplomatic partners to advance a specific foreign policy agenda. When that agenda changes so do the incentives to choose diplomatic partners. To locate these breaks we apply non-parametric structural break tests to time series models that pre- dict a state’s diplomatic behavior. We argue that where these tests identify breaks in diplomatic behavior, a state has changed its foreign policy. We validate our theory using expert foreign policy analysis and quantitative cases. We first collect new daily diplomatic events data for Russia, Iran, the USA and Australia. We then com- pare structural breaks in these time series to expert assessments about foreign policy change. Consistent with expert reports, we locate structural breaks in Iran’s diplomatic behavior when Rouhani first comes to power, then in the months after sanctions are lifted; and in Russia’s diplomatic behavior 6 months before the Ukraine crisis, and then again when Russia extends its military into Syria. No break occurs in Australia’s or America’s diplomatic behavior as expected. We contribute to the empirical literature on conflict by providing new diplomatic data and a method to measure foreign pol- icy change, and to theories of diplomacy by linking aggregated patterns of diplomatic behavior to foreign policy choices—not underlying intentions.</blockquote>
+
