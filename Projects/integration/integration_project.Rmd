@@ -1,4 +1,5 @@
 ---
+pagetitle: Conflict Integration - Eric T. Dunford
 output: 
   html_document:
     theme: paper 

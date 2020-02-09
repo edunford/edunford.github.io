@@ -1,4 +1,5 @@
 ---
+pagetitle: Tactical Adaptation - Eric T. Dunford
 output: 
   html_document:
     theme: paper 
@@ -15,7 +16,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### [Home](http://ericdunford.com/)
 
-## Tactical Variation
+## Tactical Adaptation
 
 Why do some violent non-state actors (NSA) experiment with tactics while others fall into tactical routines, repeating the same approaches over and over again? NSAs vary markedly in the size and usage of the tactical repertoires that they employ in their campaign to alter the status quo. The research project examines why some NSAs experiment with and develop a broad repertoire of tactics and targets to achieve their political aims while other groups consistently utilize the same methods across their lifespan.
 

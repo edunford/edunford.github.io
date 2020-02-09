@@ -1,4 +1,5 @@
 ---
+pagetitle: Live Simulated Environments - Eric T. Dunford
 output: 
   html_document:
     theme: paper 

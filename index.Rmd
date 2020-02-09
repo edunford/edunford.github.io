@@ -1,9 +1,8 @@
 ---
 title: <br> <center> Eric T. Dunford </a> <a href="https://github.com/edunford/" class="fa fa-github" target="_blank"></a> </a> <a href="mailto:eric.dunford@georgetown.edu" class="fa fa-envelope"></a> <a href="CV/Dunford_Curriculum_Vitae_Fall_2019.pdf" class="fa fa-file-o" target="_blank"></a> </center>
+pagetitle: Eric T. Dunford
 output: 
   html_document:
-    # includes:
-      # after_body: footer.html
     css: style.css
     theme: paper 
 ---
