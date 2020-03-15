@@ -190,6 +190,7 @@ I advise thesis projects for students in the [Masters of Conflict Resolution](ht
 
 ### Conference Presentations
 
+- **2020** "The Illusion of Precision", _International Studies Association_ (Canceled due to the COVID-19 outbreak)
 - **2019** "Membership Diversity and Tactical Variation", _American Political Science Association_
 - **2019** "Gender Norms and Violent Behavior in a Virtual World", _Politics and Computational Social Science_
 - **2019** "Predicting Conflict Occurrence using Search History Data", _International Studies Association_
