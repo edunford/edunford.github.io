@@ -1,5 +1,5 @@
 ---
-title: <br> <center> Eric T. Dunford <a href="https://github.com/edunford/" target="blank"><img src="img/github.svg" style="width:35px;height:35px;opacity:.5"></a> <a href="mailto:eric.dunford@georgetown.edu" target="_blank"><img src="img/envelope.svg" style="width:35px;height:35px;opacity:.5"></a> <a href="CV/Dunford_Curriculum_Vitae_Fall_2019.pdf" target="_blank"><img src="img/file-pdf.svg" style="width:35px;height:35px;opacity:.5"></a> <a href="https://twitter.com/dunford_e" target="_blank"><img src="img/twitter.svg" style="width:35px;height:35px;opacity:.5"></a> </center>
+title: <br> <center> Eric T. Dunford<br> <a href="https://github.com/edunford/" target="blank"><img src="img/github.svg" style="width:35px;height:35px;opacity:.5"></a> <a href="mailto:eric.dunford@georgetown.edu" target="_blank"><img src="img/envelope.svg" style="width:35px;height:35px;opacity:.5"></a> <a href="CV/Dunford_Curriculum_Vitae_Fall_2019.pdf" target="_blank"><img src="img/file-pdf.svg" style="width:35px;height:35px;opacity:.5"></a> <a href="https://twitter.com/dunford_e" target="_blank"><img src="img/twitter.svg" style="width:35px;height:35px;opacity:.5"></a> </center>
 pagetitle: Eric T. Dunford
 output: 
   html_document:
