@@ -1,5 +1,5 @@
 ---
-title: <br> <center> Eric T. Dunford </a> <a href="https://github.com/edunford/" class="fa fa-github" target="_blank"></a> </a> <a href="mailto:eric.dunford@georgetown.edu" class="fa fa-envelope"></a> <a href="CV/Dunford_Curriculum_Vitae_Fall_2019.pdf" class="fa fa-file-o" target="_blank"></a> </center>
+title: <br> <center> Eric T. Dunford <a href="https://github.com/edunford/" target="blank"><img src="img/github.svg" style="width:35px;height:35px;opacity:.5"></a> <a href="mailto:eric.dunford@georgetown.edu" target="_blank"><img src="img/envelope.svg" style="width:35px;height:35px;opacity:.5"></a> <a href="CV/Dunford_Curriculum_Vitae_Fall_2019.pdf" target="_blank"><img src="img/file-pdf.svg" style="width:35px;height:35px;opacity:.5"></a> <a href="https://twitter.com/dunford_e" target="_blank"><img src="img/twitter.svg" style="width:35px;height:35px;opacity:.5"></a> </center>
 pagetitle: Eric T. Dunford
 output: 
   html_document:
@@ -7,17 +7,22 @@ output:
     theme: paper 
 ---
 
+
 <!-- Add icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" target="_blank">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" target="_blank"> -->
 <!-- <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"> -->
 <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
 
 <center> Associate Director | Assistant Professor @ [Georgetown University](https://mccourt.georgetown.edu/) </center>
 
 
+
+
+
+
 #  {.tabset .tabset-fade}
 
-## About
+## <img src="img/user-circle.svg" style="width:25px;height:25px;opacity:.4"> About
 
 ```{r image, out.width = "30%",echo=F, out.extra='style="float:left; padding-top:30px; padding-right:30px"'}
 knitr::include_graphics(c("img/headshot.png"))
@@ -32,20 +37,24 @@ As a computational social scientist, I develop, utilize, and teach computational
 
 ### Education
 
-- <i class="fa fa-graduation-cap"></i> Ph.D., Political Science, 2019 | _University of Maryland, College Park_
-- <i class="fa fa-graduation-cap"></i> MA, Political Science, 2016 | _University of Maryland, College Park_
-- <i class="fa fa-graduation-cap"></i> BA, Political Science, 2010 | _Beloit College_
+- <img src="img/graduation-cap.svg" style="width:25px;height:25px;opacity:.6"> Ph.D., Political Science, 2018 | _University of Maryland, College Park_
+- <img src="img/graduation-cap.svg" style="width:25px;height:25px;opacity:.6"> MA, Political Science, 2016 | _University of Maryland, College Park_
+- <img src="img/graduation-cap.svg" style="width:25px;height:25px;opacity:.6"> BA, Political Science, 2010 | _Beloit College_
+
+
 
 ### Interests
 
-- <i class="fa fa-bomb"></i> Political Violence
-- <i class="fa fa-desktop"></i> Computational Social Science
-- <i class="fa fa-area-chart"></i> Conflict Event Data
-- <i class="fa fa-users"></i> Organizational and Collective Behavior
-- <i class="fa fa-gamepad"></i> Live Simulated Environments
+
+
+- <img src="img/bomb.svg" style="width:25px;height:25px;opacity:.6"> Political Violence
+- <img src="img/desktop.svg" style="width:25px;height:25px;opacity:.6"> Computational Social Science
+- <img src="img/chart-area.svg" style="width:25px;height:25px;opacity:.6"> Conflict Event Data
+- <img src="img/users.svg" style="width:25px;height:25px;opacity:.6"> Organizational and Collective Behavior
+- <img src="img/gamepad.svg" style="width:25px;height:25px;opacity:.6"> Live Simulated Environments
 <!-- - <i class="fa fa-paw"></i> [The pup]() -->
 
-## Research
+## <img src="img/user-edit.svg" style="width:25px;height:25px;opacity:.4"> Research
 
 <br><br>
 
@@ -91,7 +100,7 @@ We explore structural breaks in diplomatic meeting networks as a predictor for s
 
 
 
-## Publications
+## <img src="img/book.svg" style="width:25px;height:25px;opacity:.4"> Publications
 
 
 ### Peer-Reviewed
@@ -132,7 +141,7 @@ We explore structural breaks in diplomatic meeting networks as a predictor for s
 
 <br>
 
-## Teaching
+## <img src="img/chalkboard-teacher.svg" style="width:25px;height:25px;opacity:.4"> Teaching
 
 I primarily teach graduate-level computational social science courses at Georgetown University. As an instructor, I try to balance substance with methodological rigor by training students how to effectively employ computational methods to investigate, analyze, and learn from data to formulate and test theoretically-relevant hypotheses. In my instruction, I match formal computational training with hands-on empirical examples so that quantitative methods are taught in the context where they are applied. 
 
@@ -181,7 +190,7 @@ I advise thesis projects for students in the [Masters of Conflict Resolution](ht
 
 <br>
 
-## Talks
+## <img src="img/podcast.svg" style="width:25px;height:25px;opacity:.4"> Talks
 
 ### Invited Talks
 
