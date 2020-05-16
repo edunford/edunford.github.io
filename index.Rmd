@@ -58,45 +58,7 @@ As a computational social scientist, I develop, utilize, and teach computational
 
 <br><br>
 
-```{r, out.width = "60%",echo=F, out.extra='style="float:left; padding-right:20px"'}
-knitr::include_graphics(c("Projects/integration/combined_N_events_corr_adm1_month.png"))
-```
 
-#### [Integrating Conflict Event Data](Projects/integration/integration_project.html)
-
-Disaggregated studies of conflict typically rely on a single dataset to make inferences. In this project, we advocate integrating multiple datasets to improve measurement and analysis.  
-
-<br><br><hr><br><br>
-
-```{r, out.width = "60%",echo=F, out.extra='style="float:right; padding-left:20px"'}
-knitr::include_graphics(c("Projects/tactical_variation/capturing_tactical_profiles.png"))
-```
-
-#### [Tactical Adaptation](Projects/tactical_variation/tactical_variation_project.html)
-
-This project examines why some violent non-state actors experiment with and develop a broad repertoire of tactics and targets to achieve their political aims while other groups consistently utilize the same methods across their lifespan.
-
-<br><br><br><br><br><hr><br><br>
-
-```{r, out.width = "60%",echo=F, out.extra='style="float:left; padding-right:20px"'}
-knitr::include_graphics(c("Projects/eve_online/eve-online.jpg"))
-```
-
-#### [Live Simultated Environments](Projects/eve_online/eve_online_project.html)
-
-We leverage live simulated environments to examine individual and group-level normative and strategic behavior. 
-
-<br><br><br><br><hr><br><br>
-
-```{r, out.width = "60%",echo=F, out.extra='style="float:right; padding-left:20px"'}
-knitr::include_graphics(c("Projects/diplomatic_networks/iran_map.gif"))
-```
-
-#### [Diplomatic Networks](Projects/diplomatic_networks/diplomatic_networks_project.html)
-
-We explore structural breaks in diplomatic meeting networks as a predictor for shifts in foreign policy. 
-
-<br><br><br><br><hr><br><br>
 
 
 
