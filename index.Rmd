@@ -56,10 +56,32 @@ As a computational social scientist, I develop, utilize, and teach computational
 
 ## <img src="img/user-edit.svg" style="width:25px;height:25px;opacity:.4"> Research
 
-<br><br>
+### Ongoing Projects 
+
+
+- [Integrating Conflict Event Data](Projects/integration/integration_project.html) &mdash; Disaggregated studies of conflict typically rely on a single dataset to make inferences. In this project, we advocate for integrating multiple datasets to improve measurement and analysis.  
+- [Tactical Adaptation](Projects/tactical_variation/tactical_variation_project.html) &mdash; This project examines why some violent non-state actors experiment with and develop a broad repertoire of tactics and targets to achieve their political aims while other groups consistently utilize the same methods across their lifespan.
+- [Live Simultated Environments](Projects/eve_online/eve_online_project.html) &mdash; We leverage live simulated environments to examine individual and group-level normative and strategic behavior. 
+- [Diplomatic Networks](Projects/diplomatic_networks/diplomatic_networks_project.html) &mdash; We explore structural breaks in diplomatic meeting networks as a predictor for shifts in foreign policy. 
+<br>
+
+### Working Papers
+
+- <details><summary> "<a href="Projects/integration/dunford_et_al_2020.pdf" target="_blank">An Integrated Picture of Conflict</a>"</summary><blockquote>Growth in event datasets is fostering research about patterns, dynamics, causes, and consequences of conflict. Studies typically rely on a single dataset. Instead, we advocate integrating multiple datasets to improve measurement and analysis. We have generated an integrated dataset covering all violent events for Africa from 1997-2018 from three leading datasets (ACLED, UCDP-GED, and GTD). Our approach involves both pre-processing the data so that they are comparable and using an automated approach to produce an integrated dataset that is transparent and reproducible. Through examining these integrated data, we find substantial overlap across these three datasets. At the same time, each dataset includes events that conceptually should be captured in the other datasets, but are not. Thus, we view these integrated data as offering a better measure of violent conflict. A statistical analysis shows that geographic features frequently used in analyses of the location of conflict events --- including the distance from the capital or a border, terrain, economic development, and population--have different effects on the incidence and frequency of conflict events when using integrated data as compared to individual datasets. These illustrations highlight the potential for integration to advance conflict research by yielding a more complete and accurate picture of activity, which has repercussions for both descriptive and theoretical findings. Integration is likely to be increasingly worthwhile as event datasets proliferate, expand in coverage, and exhibit wider applications.</blockquote></details>
+
+
+- <details><summary> "<a href="" target="_blank">Membership Diversity and Tactical Innovation</a>" </summary><blockquote>...</blockquote></details>
 
 
 
+- <details><summary> "<a href="" target="_blank">Gender Norms and Violent Behavior in a Virtual World</a>"</summary><blockquote>How does gender influence violent behavior? Existing research generally focuses on biological and contextual factors that drive variation in violence, often overlooking how internalized gender norms can influence violent actions. Isolating the effect of norms from biology is challenging because sex and gender are typically conﬂated. Moreover, it is difficult to observe and know if individuals behave the same publicly as opposed to privately. To get around these issues, we examine a novel multi-player computer game setting where players can operate characters of varying genders, thus holding biology constant. The data tracks more than 488,000 unique players from over 150 countries for their first 30 days of gameplay. By exploiting variation in game mechanics, we ﬁnd evidence that behavioral differences are attributable to internalized norms as opposed to biology or external sanctioning. We then leverage a natural experiment in the data to examine if these internalized norms can be altered. We find that both male and female players utilize their female characters more violently when exposed to examples of females in military roles. The project is the first to distinguish the effects of gender norms from the effects of biology or social sanctioning---conﬁrming the importance of gender norms while clarifying the differences these norms exert on men and women’s behavior.</blockquote></details>
+
+
+- <details><summary> "<a href="Drafts/Dunford_and_Joseph_2018.pdf" target="_blank">Shifting foreign policies and punctuated diplomatic behavior</a>"</summary><blockquote>We develop a method to identify when states change their foreign policies based on an observable indicator: patterns of elite diplomatic meetings. We argue that elites choose diplomatic partners to advance a specific foreign policy agenda. When that agenda changes so do the incentives to choose diplomatic partners. To locate these breaks we apply non-parametric structural break tests to time series models that pre- dict a state’s diplomatic behavior. We argue that where these tests identify breaks in diplomatic behavior, a state has changed its foreign policy. We validate our theory using expert foreign policy analysis and quantitative cases. We first collect new daily diplomatic events data for Russia, Iran, the USA and Australia. We then com- pare structural breaks in these time series to expert assessments about foreign policy change. Consistent with expert reports, we locate structural breaks in Iran’s diplomatic behavior when Rouhani first comes to power, then in the months after sanctions are lifted; and in Russia’s diplomatic behavior 6 months before the Ukraine crisis, and then again when Russia extends its military into Syria. No break occurs in Australia’s or America’s diplomatic behavior as expected. We contribute to the empirical literature on conflict by providing new diplomatic data and a method to measure foreign pol- icy change, and to theories of diplomacy by linking aggregated patterns of diplomatic behavior to foreign policy choices—not underlying intentions.</blockquote></details>
+
+<!-- - "<a href="" target="_blank">Measuring Tactical Variation within Violent Non-state Organizations</a>" -->
+
+<br>
 
 
 ## <img src="img/book.svg" style="width:25px;height:25px;opacity:.4"> Publications
@@ -93,25 +115,19 @@ As a computational social scientist, I develop, utilize, and teach computational
 
 </div>
 
-### Software
-
-<div style="margin-left: 2em;">
-
-<a href="https://cran.r-project.org/web/packages/meltt/index.html" target="_blank">MELTT: Merging Event Data by Location, Time, and Type</a>: An `R` package that offers a methodology for systematically integrating disparate geospatial event data by leveraging information on spatio-temporal co-occurrence and event-specific metadata. 
-
-</div>
-
 <br>
 
 ## <img src="img/chalkboard-teacher.svg" style="width:25px;height:25px;opacity:.4"> Teaching
 
+
+### Overview 
 I primarily teach graduate-level computational social science courses at Georgetown University. As an instructor, I try to balance substance with methodological rigor by training students how to effectively employ computational methods to investigate, analyze, and learn from data to formulate and test theoretically-relevant hypotheses. In my instruction, I match formal computational training with hands-on empirical examples so that quantitative methods are taught in the context where they are applied. 
 
 I aim to train students on how to: (i) utilize **_machine learning methods_** to explore and generate hypotheses from data; (ii) design and implement statistical designs geared toward effectively inferring **_causal relationships_** from observational and experimental data; (iii) **_synthesize_** disparate and unstructured data to draw meaningful insights from data related to public policy and political science inquiries; and (iv) **_visualize_** data to effectively communicate empirical findings. My goal is to train students to be effective consumers, critics, and producers of computational social science.
 
 <hr>
 
-### COURSE CATALOG
+### Course Catalog
 
 <div style="margin-left: 2em;">
 
@@ -137,7 +153,7 @@ Course taught: _Spring/Fall 2019, Spring 2020_
 
 <hr>
 
-### ADVISING
+### Advising
 
 I advise thesis projects for students in the [Masters of Conflict Resolution](https://government.georgetown.edu/conflict-resolution/) program at Georgetown University.
 
@@ -151,6 +167,20 @@ I advise thesis projects for students in the [Masters of Conflict Resolution](ht
 </div>
 
 <br>
+
+
+## <img src="img/keyboard.svg" style="width:25px;height:25px;opacity:.4"> Software
+
+### <a href="https://cran.r-project.org/web/packages/meltt/index.html" target="_blank">`meltt`</a> 
+
+`meltt` &mdash; merging event data by location, time, and type &mdash; is  an `R` package that offers a methodology for systematically integrating disparate geospatial event data by leveraging information on spatio-temporal co-occurrence and event-specific metadata. 
+
+### <a href="https://github.com/edunford/tidysynth" target="_blank">`tidysynth`</a> 
+
+`tidysynth` is  an `R` package that offers a tidy implementation of the [synthetic control](https://en.wikipedia.org/wiki/Synthetic_control_method) method. The package makes a number of needed improvements when implementing the method in `R`, allowing users a greater capacity to inspect, visualize, and tune a synthetic control model.
+
+<br>
+
 
 ## <img src="img/podcast.svg" style="width:25px;height:25px;opacity:.4"> Talks
 
