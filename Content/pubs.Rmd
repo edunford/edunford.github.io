@@ -1,0 +1,37 @@
+---
+html_document:
+    css: ../style.css
+    theme: paper 
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Peer-Reviewed
+<div style="margin-left: 2em;">
+
+<details><summary>**2019** "<a href="https://doi.org/10.1177/0022002718777050" target="_blank">Integrating Conflict Event Data</a>" (With Karsten Donnay, Erin McGrath, David Cunningham, and David Backer). _Journal of Conflict Resolution._</summary><blockquote>The growing multitude of sophisticated event-level data collection enables novel analyses of conflict. Even when multiple event data sets are available, researchers tend to rely on only one. We instead advocate integrating information from multiple event data sets. The advantages include facilitating analysis of relationships between different types of conflict, providing more comprehensive empirical measurement, and evaluating the relative coverage and quality of data sets. Existing integration efforts have been performed manually, with significant limitations. Therefore, we introduce Matching Event Data by Location, Time and Type (MELTT) --- an automated, transparent, reproducible methodology for integrating event data sets. For the cases of Nigeria 2011, South Sudan 2015, and Libya 2014, we show that using MELTT to integrate data from four leading conflict event data sets (Uppsala Conflict Data Project–Georeferenced Event Data, Armed Conflict Location and Event Data, Social Conflict Analysis Database, and Global Terrorism Database) provides a more complete picture of conflict. We also apply multiple systems estimation to show that each of these data sets has substantial missingness in coverage.</blockquote></details>
+
+<details><summary>**2018** "<a href="https://doi.org/10.1287/stsc.2018.0056" target="_blank">Cultural Imprinting, Institutions, and the Organization of New Firms</a>" (with David Waguespack and Johanna K. Birnir). _Strategic Science._</summary><blockquote>Do firm founders from nations with more predictable and transparent institutions allocate more autonomy to their employees? A cultural imprinting view suggests that institutions inculcate beliefs that operate beyond the environment in which those beliefs originate. We leverage data from a multiplayer online role-playing game, EVE Online, a setting where individuals can establish and run their own corporations. EVE players come from around the world, but all face the same institutional environment within the game. This setting allows us to disentangle, for the first time, cultural norms from the myriad other local factors that will influence organizational design choices across nations. Our main finding is that founders residing in nations with more predictable and transparent real world institutions delegate more authority within the virtual firms they create.</blockquote></details>
+
+
+<details><summary>**2014** "<a href="https://link.springer.com/article/10.1057/dev.2014.39" target="_blank">A Voice in the Process: A cross-national look at ethnic inclusion and economic growth in the world</a>" (with Johanna K. Birnir). _Development._</summary><blockquote>Does greater ethnic inclusion into the executive have a positive effect on a country’s economic development? We posit that by allowing for greater diversity in a state’s decision-making process, ethnic populations find their preferences represented and thus are more likely to support enacted policies; at the same time the quality of the policy increases as a greater variety of perspectives are introduced. Utilizing the new AMAR (All-Minorities at Risk) data to capture ethnic diversity, this article offers a preliminary description, suggesting that higher levels of inclusion positively correlate with indicators of economic growth.</blockquote></details>
+
+</div>
+
+### Contributions to Books
+
+<div style="margin-left: 2em;">
+
+<details><summary>**2017** "<a href="https://www.taylorfrancis.com/books/e/9781351211666/chapters/10.4324/9781351211666-4" target="_blank">The Geography of Organized Armed Violence Around the World</a>" (with Erik Melander and David Backer). _Peace and Conflict 2017_, Routledge.</summary><blockquote>This chapter offers insight into the utility of the latest release of Uppsala Conflict Data Program's Georeferenced Event Dataset (UCDP-GED). The UCDP has an established record of compiling and disseminating an array of widely used data resources. The field of conflict studies, and the data that contributing scholars collect, have progressively moved toward greater specificity along several dimensions. UCDP-GED records the category of violence, the actors involved, the location and associated coordinates, and the timing of each event, as well as other characteristics. UCDP has been the source of the most widely used data in academic research on violence committed by organized armed actors. In particular, UCDP-GED provides a means for analyses to test micro-level theories. UCDP-GED has paved the way for methodological advances with a major bearing on substantive contributions to the literature.</blockquote></details>
+
+</div>
+
+### Media
+
+<div style="margin-left: 2em;">
+
+**2019** "<a href="https://hbr.org/2019/09/research-where-a-founder-is-from-affects-how-they-structure-their-company" target="_blank">Where a Founder Is from Affects How They Structure Their Company</a>" (with David Waguespack and Johanna K. Birnir). _Harvard Business Review_. 
+
+</div>

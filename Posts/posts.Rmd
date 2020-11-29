@@ -1,0 +1,12 @@
+---
+output: 
+  html_document:
+    css: ../style.css
+    theme: paper 
+---
+
+
+<br>
+
+### [**Using synthetic controls with `tidysynth`**]() 
+<img src="Posts/archive/2020-05-24-using-tidysynth/figures/tidysynth-logo.png" align="right" width="150" /> Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words.

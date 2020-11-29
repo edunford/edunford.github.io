@@ -1,0 +1,18 @@
+---
+html_document:
+    css: ../style.css
+    theme: paper 
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+### <a href="https://cran.r-project.org/web/packages/meltt/index.html" target="_blank">`meltt`</a> 
+
+`meltt` &mdash; merging event data by location, time, and type &mdash; is  an `R` package that offers a methodology for systematically integrating disparate geospatial event data by leveraging information on spatio-temporal co-occurrence and event-specific metadata. 
+
+### <a href="https://github.com/edunford/tidysynth" target="_blank">`tidysynth`</a> 
+
+`tidysynth` is  an `R` package that offers a tidy implementation of the [synthetic control](https://en.wikipedia.org/wiki/Synthetic_control_method) method. The package makes a number of needed improvements when implementing the method in `R`, allowing users a greater capacity to inspect, visualize, and tune a synthetic control model.

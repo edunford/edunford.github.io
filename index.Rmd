@@ -5,18 +5,10 @@ output:
   html_document:
     css: style.css
     theme: paper 
+    toc_depth: 4
 ---
 
-
-<!-- Add icon library -->
-<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" target="_blank"> -->
-<!-- <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"> -->
-<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
-
 <center> Associate Director | Assistant Professor @ [Georgetown University](https://mccourt.georgetown.edu/) </center>
-
-
-
 
 
 
@@ -28,58 +20,16 @@ output:
 knitr::include_graphics(c("img/headshot.png"))
 ```
 
-I am the Associate Director for the [Master of Science in Data Science for Public Policy program](https://mccourt.georgetown.edu/master-of-science-in-data-science-for-public-policy/) (DSPP) and an assistant teaching professor in the [McCourt School of Public Policy](https://mccourt.georgetown.edu/) at Georgetown University. I earned my Ph.D. from the University of Maryland, College Park where I worked under the direction of [Johanna Birnir](https://gvpt.umd.edu/facultyprofile/birnir/j%C3%B3hanna), [David Cunningham](http://www.davidcunninghampolisci.com/), [Kathleen Cunningham](http://www.kathleengallaghercunningham.com/), and [Ernesto Calvo](http://gvptsites.umd.edu/calvo/). 
+```{r research, echo=FALSE,child="Content/about.Rmd"}
+```
 
-My research examines the distribution and impact of political violence perpetrated by non-state organizations to isolate plausible policy interventions targeted at reducing the occurrence and spread of conflict. Ongoing projects explore the effect of membership heterogeneity on the strategic use of violent tactics by armed actors; integration of multiple conflict event datasets to improve measurement of violent activity; and the use of live simulated environments to analyze normative behavior. 
+<br>
 
-As a computational social scientist, I develop, utilize, and teach computational tools to help (a) effectively utilize machine learning and computational methods to draw descriptive inferences from data and (b) leverage non-traditional data assets to better understand social processes. 
-
-
-### Education
-
-- <img src="img/graduation-cap.svg" style="width:25px;height:25px;opacity:.6"> Ph.D., Political Science, 2018 | _University of Maryland, College Park_
-- <img src="img/graduation-cap.svg" style="width:25px;height:25px;opacity:.6"> MA, Political Science, 2016 | _University of Maryland, College Park_
-- <img src="img/graduation-cap.svg" style="width:25px;height:25px;opacity:.6"> BA, Political Science, 2010 | _Beloit College_
-
-
-
-### Interests
-
-
-
-- <img src="img/bomb.svg" style="width:25px;height:25px;opacity:.6"> Political Violence
-- <img src="img/desktop.svg" style="width:25px;height:25px;opacity:.6"> Computational Social Science
-- <img src="img/chart-area.svg" style="width:25px;height:25px;opacity:.6"> Conflict Event Data
-- <img src="img/users.svg" style="width:25px;height:25px;opacity:.6"> Organizational and Collective Behavior
-- <img src="img/gamepad.svg" style="width:25px;height:25px;opacity:.6"> Live Simulated Environments
-<!-- - <i class="fa fa-paw"></i> [The pup]() -->
 
 ## <img src="img/user-edit.svg" style="width:25px;height:25px;opacity:.4"> Research
 
-### Ongoing Projects 
-
-
-- [Integrating Conflict Event Data](Projects/integration/integration_project.html) &mdash; Disaggregated studies of conflict typically rely on a single dataset to make inferences. In this project, we advocate for integrating multiple datasets to improve measurement and analysis.  
-- [Tactical Adaptation](Projects/tactical_variation/tactical_variation_project.html) &mdash; This project examines why some violent non-state actors experiment with and develop a broad repertoire of tactics and targets to achieve their political aims while other groups consistently utilize the same methods across their lifespan.
-- [Live Simultated Environments](Projects/eve_online/eve_online_project.html) &mdash; We leverage live simulated environments to examine individual and group-level normative and strategic behavior. 
-- [Diplomatic Networks](Projects/diplomatic_networks/diplomatic_networks_project.html) &mdash; We explore structural breaks in diplomatic meeting networks as a predictor for shifts in foreign policy. 
-<br>
-
-### Working Papers
-
-- <details><summary> "<a href="Projects/integration/dunford_et_al_2020.pdf" target="_blank">An Integrated Picture of Conflict</a>"</summary><blockquote>Growth in event datasets is fostering research about patterns, dynamics, causes, and consequences of conflict. Studies typically rely on a single dataset. Instead, we advocate integrating multiple datasets to improve measurement and analysis. We have generated an integrated dataset covering all violent events for Africa from 1997-2018 from three leading datasets (ACLED, UCDP-GED, and GTD). Our approach involves both pre-processing the data so that they are comparable and using an automated approach to produce an integrated dataset that is transparent and reproducible. Through examining these integrated data, we find substantial overlap across these three datasets. At the same time, each dataset includes events that conceptually should be captured in the other datasets, but are not. Thus, we view these integrated data as offering a better measure of violent conflict. A statistical analysis shows that geographic features frequently used in analyses of the location of conflict events --- including the distance from the capital or a border, terrain, economic development, and population--have different effects on the incidence and frequency of conflict events when using integrated data as compared to individual datasets. These illustrations highlight the potential for integration to advance conflict research by yielding a more complete and accurate picture of activity, which has repercussions for both descriptive and theoretical findings. Integration is likely to be increasingly worthwhile as event datasets proliferate, expand in coverage, and exhibit wider applications.</blockquote></details>
-
-
-- <details><summary> "<a href="" target="_blank">Membership Diversity and Tactical Innovation</a>" </summary><blockquote>...</blockquote></details>
-
-
-
-- <details><summary> "<a href="" target="_blank">Gender Norms and Violent Behavior in a Virtual World</a>"</summary><blockquote>How does gender influence violent behavior? Existing research generally focuses on biological and contextual factors that drive variation in violence, often overlooking how internalized gender norms can influence violent actions. Isolating the effect of norms from biology is challenging because sex and gender are typically conﬂated. Moreover, it is difficult to observe and know if individuals behave the same publicly as opposed to privately. To get around these issues, we examine a novel multi-player computer game setting where players can operate characters of varying genders, thus holding biology constant. The data tracks more than 488,000 unique players from over 150 countries for their first 30 days of gameplay. By exploiting variation in game mechanics, we ﬁnd evidence that behavioral differences are attributable to internalized norms as opposed to biology or external sanctioning. We then leverage a natural experiment in the data to examine if these internalized norms can be altered. We find that both male and female players utilize their female characters more violently when exposed to examples of females in military roles. The project is the first to distinguish the effects of gender norms from the effects of biology or social sanctioning---conﬁrming the importance of gender norms while clarifying the differences these norms exert on men and women’s behavior.</blockquote></details>
-
-
-- <details><summary> "<a href="Drafts/Dunford_and_Joseph_2018.pdf" target="_blank">Shifting foreign policies and punctuated diplomatic behavior</a>"</summary><blockquote>We develop a method to identify when states change their foreign policies based on an observable indicator: patterns of elite diplomatic meetings. We argue that elites choose diplomatic partners to advance a specific foreign policy agenda. When that agenda changes so do the incentives to choose diplomatic partners. To locate these breaks we apply non-parametric structural break tests to time series models that pre- dict a state’s diplomatic behavior. We argue that where these tests identify breaks in diplomatic behavior, a state has changed its foreign policy. We validate our theory using expert foreign policy analysis and quantitative cases. We first collect new daily diplomatic events data for Russia, Iran, the USA and Australia. We then com- pare structural breaks in these time series to expert assessments about foreign policy change. Consistent with expert reports, we locate structural breaks in Iran’s diplomatic behavior when Rouhani first comes to power, then in the months after sanctions are lifted; and in Russia’s diplomatic behavior 6 months before the Ukraine crisis, and then again when Russia extends its military into Syria. No break occurs in Australia’s or America’s diplomatic behavior as expected. We contribute to the empirical literature on conflict by providing new diplomatic data and a method to measure foreign pol- icy change, and to theories of diplomacy by linking aggregated patterns of diplomatic behavior to foreign policy choices—not underlying intentions.</blockquote></details>
-
-<!-- - "<a href="" target="_blank">Measuring Tactical Variation within Violent Non-state Organizations</a>" -->
+```{r research, echo=FALSE,child="Content/research.Rmd"}
+```
 
 <br>
 
@@ -87,141 +37,40 @@ As a computational social scientist, I develop, utilize, and teach computational
 ## <img src="img/book.svg" style="width:25px;height:25px;opacity:.4"> Publications
 
 
-### Peer-Reviewed
-<div style="margin-left: 2em;">
+```{r, eval=T,echo=F,result="asis",child="Content/pubs.Rmd"}
+```
 
-<details><summary>**2019** "<a href="https://doi.org/10.1177/0022002718777050" target="_blank">Integrating Conflict Event Data</a>" (With Karsten Donnay, Erin McGrath, David Cunningham, and David Backer). _Journal of Conflict Resolution._</summary><blockquote>The growing multitude of sophisticated event-level data collection enables novel analyses of conflict. Even when multiple event data sets are available, researchers tend to rely on only one. We instead advocate integrating information from multiple event data sets. The advantages include facilitating analysis of relationships between different types of conflict, providing more comprehensive empirical measurement, and evaluating the relative coverage and quality of data sets. Existing integration efforts have been performed manually, with significant limitations. Therefore, we introduce Matching Event Data by Location, Time and Type (MELTT) --- an automated, transparent, reproducible methodology for integrating event data sets. For the cases of Nigeria 2011, South Sudan 2015, and Libya 2014, we show that using MELTT to integrate data from four leading conflict event data sets (Uppsala Conflict Data Project–Georeferenced Event Data, Armed Conflict Location and Event Data, Social Conflict Analysis Database, and Global Terrorism Database) provides a more complete picture of conflict. We also apply multiple systems estimation to show that each of these data sets has substantial missingness in coverage.</blockquote></details>
-
-<details><summary>**2018** "<a href="https://doi.org/10.1287/stsc.2018.0056" target="_blank">Cultural Imprinting, Institutions, and the Organization of New Firms</a>" (with David Waguespack and Johanna K. Birnir). _Strategic Science._</summary><blockquote>Do firm founders from nations with more predictable and transparent institutions allocate more autonomy to their employees? A cultural imprinting view suggests that institutions inculcate beliefs that operate beyond the environment in which those beliefs originate. We leverage data from a multiplayer online role-playing game, EVE Online, a setting where individuals can establish and run their own corporations. EVE players come from around the world, but all face the same institutional environment within the game. This setting allows us to disentangle, for the first time, cultural norms from the myriad other local factors that will influence organizational design choices across nations. Our main finding is that founders residing in nations with more predictable and transparent real world institutions delegate more authority within the virtual firms they create.</blockquote></details>
-
-
-<details><summary>**2014** "<a href="https://link.springer.com/article/10.1057/dev.2014.39" target="_blank">A Voice in the Process: A cross-national look at ethnic inclusion and economic growth in the world</a>" (with Johanna K. Birnir). _Development._</summary><blockquote>Does greater ethnic inclusion into the executive have a positive effect on a country’s economic development? We posit that by allowing for greater diversity in a state’s decision-making process, ethnic populations find their preferences represented and thus are more likely to support enacted policies; at the same time the quality of the policy increases as a greater variety of perspectives are introduced. Utilizing the new AMAR (All-Minorities at Risk) data to capture ethnic diversity, this article offers a preliminary description, suggesting that higher levels of inclusion positively correlate with indicators of economic growth.</blockquote></details>
-
-</div>
-
-### Contributions to Books
-
-<div style="margin-left: 2em;">
-
-<details><summary>**2017** "<a href="https://www.taylorfrancis.com/books/e/9781351211666/chapters/10.4324/9781351211666-4" target="_blank">The Geography of Organized Armed Violence Around the World</a>" (with Erik Melander and David Backer). _Peace and Conflict 2017_, Routledge.</summary><blockquote>This chapter offers insight into the utility of the latest release of Uppsala Conflict Data Program's Georeferenced Event Dataset (UCDP-GED). The UCDP has an established record of compiling and disseminating an array of widely used data resources. The field of conflict studies, and the data that contributing scholars collect, have progressively moved toward greater specificity along several dimensions. UCDP-GED records the category of violence, the actors involved, the location and associated coordinates, and the timing of each event, as well as other characteristics. UCDP has been the source of the most widely used data in academic research on violence committed by organized armed actors. In particular, UCDP-GED provides a means for analyses to test micro-level theories. UCDP-GED has paved the way for methodological advances with a major bearing on substantive contributions to the literature.</blockquote></details>
-
-</div>
-
-### Media
-
-<div style="margin-left: 2em;">
-
-**2019** "<a href="https://hbr.org/2019/09/research-where-a-founder-is-from-affects-how-they-structure-their-company" target="_blank">Where a Founder Is from Affects How They Structure Their Company</a>" (with David Waguespack and Johanna K. Birnir). _Harvard Business Review_. 
-
-</div>
 
 <br>
 
 ## <img src="img/chalkboard-teacher.svg" style="width:25px;height:25px;opacity:.4"> Teaching
 
 
-### Overview 
-I primarily teach graduate-level computational social science courses at Georgetown University. As an instructor, I try to balance substance with methodological rigor by training students how to effectively employ computational methods to investigate, analyze, and learn from data to formulate and test theoretically-relevant hypotheses. In my instruction, I match formal computational training with hands-on empirical examples so that quantitative methods are taught in the context where they are applied. 
+```{r, eval=T,echo=F,result="asis",child="Content/teaching.Rmd"}
+```
 
-I aim to train students on how to: (i) utilize **_machine learning methods_** to explore and generate hypotheses from data; (ii) design and implement statistical designs geared toward effectively inferring **_causal relationships_** from observational and experimental data; (iii) **_synthesize_** disparate and unstructured data to draw meaningful insights from data related to public policy and political science inquiries; and (iv) **_visualize_** data to effectively communicate empirical findings. My goal is to train students to be effective consumers, critics, and producers of computational social science.
-
-<hr>
-
-### Course Catalog
-
-<div style="margin-left: 2em;">
-
-#### [Accelerated Statistics for Public Policy II (PPOL561)](http://ericdunford.com/ppol561/Syllabus/PPOL561-Accelerated-Statistics-for-Public-Policy-02.pdf)
-
-Course taught: _Spring 2019, Spring 2020_
-
-> This is the second course in the two-course sequence on quantitative methods for social science for the Masters of Science in Data Science for Public Policy (DSPP). The course builds on students’ understanding of multivariate regression and introduces advanced, but commonly used, methods of statistical analysis. The course is broadly divided into two part: advanced modeling and causal inference. Instruction will concentrate on how to determine the appropriate econometric approach in addressing various types of policy questions, while highlighting the challenges in isolating causal effects. The emphasis is on applied learning; formal proofs and mathematical rigor are presented but not the principal focus of the course. As part of our effort to teach effective communication skills, students will make presentations about applications using the techniques being studied in class.
-
-#### [Data Science I: Foundations (PPOL564)](http://ericdunford.com/ppol564/syllabus/PPOL564-Syllabus.pdf)
-
-Course taught: _Fall 2018, Fall 2019_
-
-> This first course in the core data science sequence for the Masters of Science in Data Science for Public Policy (DSPP) introduces students to the programming and mathematical concepts that underpin statistical learning. The aim of the course is to provide DSPP students with the foundations necessary to grasp the concepts and algorithms encountered in Data Science II and III. Students will cover topics related to linear algebra (with a focus on linear regression and dimension reduction); multivariate calculus (with an emphasis on optimization algorithms, specifically gradient descent); and probability theory (with an emphasis on simulation and sampling). Throughout the course, students will be introduced to the fundamentals of programming and manipulating data in Python. Students will work in Jupyter notebooks and use Git/GitHub to submit coding assignments, developing literate programming and reproducible research skills they will use throughout the program.
-
-#### [Introduction to Data Science (PPOL670)](http://ericdunford.com/ppol670/Syllabus/PPOL670-Introduction-to-DS_Syllabus.pdf)
-
-Course taught: _Spring/Fall 2019, Spring 2020_
-
-> This course teaches Masters of Public Policy (MPP) students how to synthesize disparate, possibly unstructured data in order to draw meaningful insights from data. Topics covered include fundamentals of functional programming in `R`, literate programming, data wrangling, data visualization, data extraction (via web scraping and APIs), text analysis, and machine learning methods. In addition, students will be exposed to Git and Github for reproducible research. The course aims to offer students a practical toolkit for data exploration. The objective of the course is to equip MPP students with the skills to incorporate data into their decision-making and analysis. 
-
-</div>
-
-<hr>
-
-### Advising
-
-I advise thesis projects for students in the [Masters of Conflict Resolution](https://government.georgetown.edu/conflict-resolution/) program at Georgetown University.
-
-<div style="margin-left: 2em;">
-
-#### Current Advisees
-
-- Ayaka Oishi
-
-
-</div>
 
 <br>
 
 
 ## <img src="img/keyboard.svg" style="width:25px;height:25px;opacity:.4"> Software
 
-### <a href="https://cran.r-project.org/web/packages/meltt/index.html" target="_blank">`meltt`</a> 
-
-`meltt` &mdash; merging event data by location, time, and type &mdash; is  an `R` package that offers a methodology for systematically integrating disparate geospatial event data by leveraging information on spatio-temporal co-occurrence and event-specific metadata. 
-
-### <a href="https://github.com/edunford/tidysynth" target="_blank">`tidysynth`</a> 
-
-`tidysynth` is  an `R` package that offers a tidy implementation of the [synthetic control](https://en.wikipedia.org/wiki/Synthetic_control_method) method. The package makes a number of needed improvements when implementing the method in `R`, allowing users a greater capacity to inspect, visualize, and tune a synthetic control model.
+```{r, eval=T,echo=F,result="asis",child="Content/software.Rmd"}
+```
 
 <br>
 
-
 ## <img src="img/podcast.svg" style="width:25px;height:25px;opacity:.4"> Talks
 
-### Invited Talks
+```{r, eval=T,echo=F,result="asis",child="Content/talks.Rmd"}
+```
 
-- **2019** "Conflict Event History Data and Prediction", _Central Intelligence Agency_
-- **2019** "Predicting Conflict Occurrence Using Search History Data", _Facebook_
+<br>
 
-### Conference Presentations
+<!-- ## <img src="img/edit.svg" style="width:25px;height:25px;opacity:.4"> Posts -->
 
-- **2020** "The Illusion of Precision", _International Studies Association_ (Canceled due to the COVID-19 outbreak)
-- **2019** "Membership Diversity and Tactical Variation", _American Political Science Association_
-- **2019** "Gender Norms and Violent Behavior in a Virtual World", _Politics and Computational Social Science_
-- **2019** "Predicting Conflict Occurrence using Search History Data", _International Studies Association_
-- **2018** "Advancing Measurement in the Study of Conflict and Political Violence", _Peace Science Society_
-- **2017** "A Break from the Past: why mapping deviations in diplomatic networks reveals shifts in foreign policy strategies, _International Studies Association_ 
-- **2017** "A Break from the Past: why mapping deviations in diplomatic networks reveals shifts in foreign policy strategies", _Peace Science Society_
-- **2016** "An Automated Aggregation of Geo-coded Violent and Non-violent Conflict Events", _Peace Science Society_
-- **2016** "Integrating African Conflict Event Data", _American Political Science Association_
-- **2016** "MELTT: Matching Event Data by Location, Time, and Type", _The Society for Political Methodology_
-- **2016** "MELTT: Matching Event Data by Location, Time, and Type", _Midwest Political Science Association_
-- **2015** "Providing to Compete: An Examination of Social Welfare Provisions by Regime Change Movements", _Midwest Political Science Association_
+```{r, eval=T,echo=F,result="asis",child="Posts/posts.Rmd"}
+```
 
-### Workshops
-
-- **2019** "Building a professional web presence using `R`". (Data Science in Action Seminar) _McCourt School of Public Policy, Georgetown University_
-- **2018** "A Crash Course in Statistical Computing" (Short Course) _College of Behavioral and Social Sciences University of Maryland, College Park_
-- **2017** "Applied Statistics and Data Management in `R`" (Short Course) _Smith School of Business, University of Maryland, College Park_
-- **2017** "Tools and Best Practices for Integrating Spatial Data" (APSA Short Course co-taught with [Karsten Donnay](https://www.karstendonnay.net/) and [Andrew Linke](https://faculty.utah.edu/u6001910-Andrew_M._Linke/hm/index.hml)) _American Political Science Association_
-- **2017** "An Introduction To Statistical Programing In `R`: A short course on processing, analyzing, and visualizing data in `R`" (Short Course) _Creative Associates International, Washington DC_
-- **2017** "The ABC’s of Bayesian Estimation in `R`" (Talk) _University of Maryland, College Park_
-- **2016** "Learning R Programming" (Short Course) _Department of Government and Politics, University of Maryland, College Park_
-- **2016** "Web-scrapping and Automated Data Process in `R`" (Workshop) _University of Iceland, Reykjavik_
-- **2016** "Web-scrapping and Automated Data Process in `R`" (Workshop) _University of Maryland, College Park_
-- **2015** "Functional Programming in `R`" (Workshop) _University of Maryland, College Park_
-- **2015** "Real-Time Modeling of Social Protest: Ferguson, Twitter, and the Opacity of Social Media Data" _University of Maryland, College Park_
-
-
-<!-- ## Blog -->
-
-<!-- Coming soon.  -->
-
-
+<br>
 
