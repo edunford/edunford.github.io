@@ -8,7 +8,7 @@ output:
     toc_depth: 4
 ---
 
-<center> Associate Director | Assistant Professor @ [Georgetown University](https://mccourt.georgetown.edu/) </center>
+<center> Associate Director | Assistant Professor @ [Georgetown University](https://mccourt.georgetown.edu/) <br> Research Scientist @ [Facebook](https://research.fb.com/people/dunford-eric/) </center>
 
 
 
