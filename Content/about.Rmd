@@ -9,11 +9,14 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-I am the **Associate Director** for the [Master of Science in Data Science for Public Policy program](https://mccourt.georgetown.edu/master-of-science-in-data-science-for-public-policy/) (DSPP), an **Assistant Teaching Professor** in the [McCourt School of Public Policy](https://mccourt.georgetown.edu/) at **_Georgetown University_**, and a **Research Scientist** on the Core Data Science team at **_Facebook_**. I earned my Ph.D. from the University of Maryland, College Park where I worked under the direction of [Johanna Birnir](https://gvpt.umd.edu/facultyprofile/birnir/j%C3%B3hanna), [David Cunningham](http://www.davidcunninghampolisci.com/), [Kathleen Cunningham](http://www.kathleengallaghercunningham.com/), and [Ernesto Calvo](http://gvptsites.umd.edu/calvo/). 
+I am the **Associate Director** for the [Master of Science in Data Science for Public Policy program](https://mccourt.georgetown.edu/master-of-science-in-data-science-for-public-policy/) (DSPP), an **Assistant Teaching Professor** in the [McCourt School of Public Policy](https://mccourt.georgetown.edu/) at **_Georgetown University_**, and a [**Computational Social Scientist** on the Core Data Science team](https://research.fb.com/people/dunford-eric/) at **_Facebook_**. 
 
-My research examines the distribution and impact of political violence perpetrated by non-state organizations to isolate plausible policy interventions targeted at reducing the occurrence and spread of conflict. Ongoing projects explore the effect of membership heterogeneity on the strategic use of violent tactics by armed actors; integration of multiple conflict event datasets to improve measurement of violent activity; and the use of live simulated environments to analyze normative behavior. 
 
-As a computational social scientist, I develop, utilize, and teach computational tools to help (a) effectively utilize machine learning and computational methods to draw descriptive inferences from data and (b) leverage non-traditional data assets to better understand social processes. 
+My research interests lie at the intersection of political conflict, network science, and geographic information systems. My work examines the distribution and impact of political violence, extremism, and conspiracy theories on political and social systems. 
+
+As a computational social scientist, I develop, utilize, and teach computational tools to help (a) effectively utilize computational methods to draw descriptive and causal inferences from data and (b) leverage non-traditional data assets to better understand social processes. 
+
+<!-- I earned my Ph.D. from the University of Maryland, College Park where I worked under the direction of [Johanna Birnir](https://gvpt.umd.edu/facultyprofile/birnir/j%C3%B3hanna), [David Cunningham](http://www.davidcunninghampolisci.com/), [Kathleen Cunningham](http://www.kathleengallaghercunningham.com/), and [Ernesto Calvo](http://gvptsites.umd.edu/calvo/).  -->
 
 
 ### Education
